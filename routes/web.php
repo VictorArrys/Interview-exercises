@@ -18,7 +18,7 @@ use App\Http\Controllers\SaleController;
 */
 
 Route::get('/', function () {
-    return view('product_view');
+    return view('products_view');
 });
 
 Route::get('/docs', function () {
